@@ -1,0 +1,27 @@
+
+/* import font */
+
+@font-face {
+    font-family: 'petr_fontregular';
+    src: url('petr-font/Dokdo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'petr_fontregular';
+    color: blue;
+}
+
+p{
+    color: green;
+    font-family: cursive;
+    font-size: large;
+}
+
+.icon{
+    height: 25px;
+}
+
+button{
+    border: none
+}
