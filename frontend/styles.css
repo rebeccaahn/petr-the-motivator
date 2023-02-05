@@ -135,3 +135,26 @@ body{
     left: 20%;
     top: 60%;
   }
+
+  #homepage {
+    position: absolute;
+    height: 40%;
+    width: 30%;
+    left: 32%;
+    top: 50%;
+  }
+
+  #hometext {
+    position:absolute;
+    height: 30%;
+    width: 60%;
+    left: 20%;
+    top: 20%;
+  }
+
+  #display {
+    position: absolute;
+    left: 20%;
+    right: 50%;
+    font-size: 30px;
+  }
