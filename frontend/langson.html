@@ -3,15 +3,33 @@
 <html>
     <head>
         <link rel="stylesheet" href="/frontend/styles.css">
+        
         <title>Langson Library</title>
     </head>
     <body>
         <img class="background" src="/frontend/images/bg_title.gif"/>
+        <img class="background" src="/frontend/images/Ll_bg.gif"/>
         <div class="content">
             <a href="index.html">
-                <img src='/frontend/images/Logo.gif' alternate="logo!" class="icon">
+                <img src='/frontend/images/Logo.gif' alternate="logo!" class="icon" title="back to main page">
             </a>
             <img class='center' src="/frontend/images/Plank.gif" width=200px height=200px/>
         </div>
+        <p id="countdown"></p>
+        <p id="finish"></p>
+        <script>
+            var start = new Date().getTime();
+            var x = setInterval(function() {
+            var now = new Date().getTime();
+            var countdown = now - start;
+            var countdown = Math.floor(countdown / 1000);
+            document.getElementById("countdown").innerHTML = "Timer: " + (10 - countdown);
+            if (countdown > 9) {
+                clearInterval(x);
+                document.getElementById("finish").innerHTML = "<button type='button' onclick=\"location.href='compliment.html'\">Continue</button>";
+            }
+            });
+        </script>
+        
     </body>
 </html>

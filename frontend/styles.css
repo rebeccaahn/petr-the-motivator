@@ -23,11 +23,12 @@ p{
 }
 
 button{
-    border: none
+    border: none;
 }
 
 .location{
-    height: 50px
+    height: 100px;
+    width: 120px;
 }
 
 html {
@@ -65,3 +66,72 @@ body{
     height: 50%;
     width: 40%;
  }
+
+ #countdown {
+    position: absolute;
+    font-size: 75px;
+    color: purple;
+    right: 60px;
+    top: 0px;
+  }
+  #finish {
+    position: absolute;
+    font-size: 150px;
+    bottom: 10%;
+    right: 3%;
+    top: 0px;
+    padding: 30px 60px;
+  }
+
+  button {
+    font-size: 25px;
+    width:140px;
+    height:60px;
+    color: white;
+    background-color: rgb(11, 123, 11);
+    font-family: 'petr_fontregular';
+  }
+
+  #bw {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 40%;
+    left: 70%;
+    top: 60%;
+  }
+
+  #eh {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 40%;
+    left: 70%;
+    top: 30%;
+  }
+
+  #fp {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 40%;
+    left: 45%;
+    top: 70%;
+  }
+
+  #ll {
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 40%;
+    left: 20%;
+    top: 60%;
+  }
